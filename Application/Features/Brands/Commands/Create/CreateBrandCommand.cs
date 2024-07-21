@@ -24,6 +24,7 @@ public class CreateBrandCommand:IRequest<CreatedBrandResponse>
         Task<CreatedBrandResponse> IRequestHandler<CreateBrandCommand, CreatedBrandResponse>.Handle(CreateBrandCommand request, CancellationToken cancellationToken)
         {
             throw new NotImplementedException();
+
         }
     }
 
